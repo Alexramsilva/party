@@ -84,7 +84,7 @@ if st.button("Pronosticar"):
 st.markdown("""
 <style>
     .stApp {
-        background-color: #00BFFF;
+        background-color: #FF1493;
     }
     .css-1d391kg {
         color: #00BFFF;
