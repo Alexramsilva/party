@@ -78,3 +78,16 @@ if st.button("Pronosticar"):
     prediction = model.predict(input_data)[0]
 
     st.success(f"Pronóstico de party: {prediction:.2f}")
+
+
+# --- Personalización de diseño ---
+st.markdown("""
+<style>
+    .stApp {
+        background-color: #00FF00;
+    }
+    .css-1d391kg {
+        color: #00BFFF;
+    }
+</style>
+""", unsafe_allow_html=True)
